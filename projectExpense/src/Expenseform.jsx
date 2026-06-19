@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function ExpenseForm({ onAdd }) {
+export default function Expenseform({ onAdd }) {
   const [desc, setDesc]     = useState("");
   const [amount, setAmount] = useState("");
   const [cat, setCat]       = useState("food");
