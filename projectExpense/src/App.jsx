@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import "./App.css";
-import ExpenseForm from "./ExpenseForm";
+import Expenseform from "./Expenseform";
 import ExpenseList from "./ExpenseList";
 import Summary from "./Summary";
 
