@@ -34,7 +34,7 @@ export default function App() {
     <div className="app">
       <h2>Expense Tracker</h2>
       <Summary total={total} count={expenses.length} />
-      <ExpenseForm onAdd={addExpense} />
+      <Expenseform onAdd={addExpense} />
       <div className="filter">
         <select value={filter} onChange={e => setFilter(e.target.value)}>
           <option value="all">All</option>
